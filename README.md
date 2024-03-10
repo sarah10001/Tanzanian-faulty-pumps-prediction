@@ -44,7 +44,8 @@ Standard Deviation: The standard deviation of accuracy scores reveals the consis
 **Interpretation**
 The Decision Tree classifier achieved a mean cross-validation accuracy of approximately 0.774 with a standard deviation of 0.004. These results indicate the model's capability in predicting the condition of water pumps, considering both functional and non-functional states. 
 
-<img src="decision trees diagram.png" alt="Decision Trees Importance Feature Diagram">
+![Decision Trees Importance Feature Diagram](![decision trees diagram](https://github.com/sarah10001/Tanzanian-pump-functionality-prediction/assets/151674519/158fbd2d-6453-4011-9c60-c02bda658499)
+)
 
 ### Alternative Models
 ### Random Forest Classifier
