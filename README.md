@@ -17,6 +17,11 @@ influencing water pump functionality and maintenance needs. By analyzing histori
 allocation, prioritize interventions in regions with high repair needs, and evaluate the impact of funding sources on water pump functionality.
 
 ## Modeling
+The primary objective is to predict the functionality of water pumps based on historical data. Machine learning models excel at predictive tasks, allowing us to build accurate models that can generalize well to unseen data. This predictive capability is crucial for identifying non-functional pumps and ensuring timely maintenance or replacement.
+
+To achieve this objective, we initially employed decision trees as a baseline model. Decision trees provide a straightforward approach to classification tasks and offer insights into feature importance. However, to enhance predictive accuracy and capture more complex relationships within the data, we also explored the use of random forests as an alternative model.
+
+Random forests extend the capabilities of decision trees by aggregating multiple decision trees and mitigating overfitting. By leveraging the ensemble of trees, random forests can provide robust predictions and handle high-dimensional datasets effectively. This approach allows us to capitalize on the strengths of both decision trees and random forests to develop models that accurately predict water pump functionality and generalize well to new data.
 
 ### Baseline Model
 ### Decision Tree Classifier
