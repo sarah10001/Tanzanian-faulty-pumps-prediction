@@ -47,23 +47,43 @@ The Decision Tree classifier achieved a mean cross-validation accuracy of approx
 ### Alternative Models
 ### Random Forest Classifier
 
-**Random Forest Cross-validation Scores**:
-The Random Forest classifier was evaluated using cross-validation on the training data. The obtained cross-validation scores are as follows:
+#### Random Forest Classifier Performance and Feature Importance
 
-**Cross-validation scores**: [0.8165, 0.8189, 0.8113, 0.8116, 0.8113]
-Mean CV accuracy: 0.8139
-Standard deviation of CV accuracy: 0.0032
-**Test Set Predictions**:
-The model made predictions for the test set, providing insights into its performance on unseen data:
+##### Model Training and Prediction
 
-**Predicted labels for the test set**: [[ True False], [ True False], [ True False], ..., [ True False], [ True False], [False True]]
-These predictions indicate the model's classification for each data point in the test set, where True represents one class and False represents the other.
+- **Cross-Validation Scores**: The Random Forest classifier achieved the following cross-validation scores on the training data:
+  - [0.8219, 0.8192, 0.8155, 0.8137, 0.8175]
+  - Mean CV accuracy: 0.8176
+  - Standard deviation of CV accuracy: 0.0028
 
-**Implications**:
-The Random Forest classifier demonstrates a mean cross-validation accuracy of approximately 81.39%, indicating reasonable performance on unseen data.
-With a low standard deviation of cross-validation accuracy, the model exhibits consistent performance across different folds of the training data.
-Comparatively, the Random Forest classifier outperforms the Decision Trees model, achieving a higher mean cross-validation accuracy and lower standard deviation.
-Further improvements to the Random Forest classifier's performance are explored through hyperparameter tuning.
+- **Test Set Predictions**: The model predicted labels for the test set, indicating whether water pumps are functional or non-functional.
+
+##### Implications
+- The mean cross-validation accuracy of approximately 81.76% suggests the model performs well on unseen data.
+- Low standard deviation indicates consistent performance across different folds.
+
+#### Feature Importance Analysis
+
+##### Decision Trees
+- **Extraction Type (0.45)**: Highest importance, reflecting the significant impact of extraction methods on water point functionality.
+- **Payment (0.12)**: Second most important, indicating payment modes' influence on functionality.
+- **Construction Year (0.12)**: Age of water points affects functionality.
+- **Source (0.1)**: Water source significantly affects functionality.
+- **Water Quality (0.1)**: Quality of water provided impacts functionality.
+- **Funder (0.04)**: Different funders have varying impacts.
+- **Geographic Features**: Latitude, region, longitude, and GPS height contribute to understanding spatial patterns.
+
+##### Random Forest
+- **Latitude (0.2) and Longitude (0.2)**: Strong spatial patterns observed.
+- **Funder (0.125)**: Funding organization's influence.
+- **Construction Year (0.125)**: Year of construction remains significant.
+- **GPS Height (0.125)**: Elevation impacts functionality.
+- **Extraction Type (0.085) and Payment (0.055)**: Varying importance but still influential.
+- **Other Features**: Region, source, and water quality also contribute.
+
+#### Conclusion
+- Both models reveal complex factors influencing water pump functionality.
+- Understanding these factors can inform interventions to improve water access and infrastructure maintenance, particularly in regions with water access challenges.
 
 
 
