@@ -19,8 +19,10 @@ to classify water pumps into functional, non-functional, and functional needs re
 influencing water pump functionality and maintenance needs. By analyzing historical data on water pump failures and repairs, we can optimize maintenance schedules and resource allocation, prioritize interventions in regions with high repair needs, and evaluate the impact of funding sources on water pump functionality.
 
 ### Distributions before and after log transformation
-![Distribution before log transformation](![distribution before log transformation](https://github.com/sarah10001/Tanzanian-pump-functionality-prediction/assets/151674519/0e2d23fd-fb43-47a6-95ce-58a89833ca50)
-![Distribution after log transformation](![![distribution after log transformation](https://github.com/sarah10001/Tanzanian-pump-functionality-prediction/assets/151674519/2e62f23c-e785-4ac5-86ae-24b9071bd64c)
+![Distribution before log transformation](https://github.com/sarah10001/Tanzanian-pump-functionality-prediction/blob/main/assets/151674519/0e2d23fd-fb43-47a6-95ce-58a89833ca50.png)
+
+![Distribution after log transformation](https://github.com/sarah10001/Tanzanian-pump-functionality-prediction/blob/main/assets/151674519/2e62f23c-e785-4ac5-86ae-24b9071bd64c.png)
+
 
 ## Modeling
 The primary objective is to predict the functionality of water pumps based on historical data. Machine learning models excel at predictive tasks, allowing us to build accurate models that can generalize well to unseen data. This predictive capability is crucial for identifying non-functional pumps and ensuring timely maintenance or replacement.
