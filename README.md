@@ -19,9 +19,9 @@ allocation, prioritize interventions in regions with high repair needs, and eval
 ## Modeling
 
 ### Baseline Model
-#### Decision Tree Classifier
+### Decision Tree Classifier
 
-##### Training and Prediction
+#### Training and Prediction
 
 **Training Data**: Features and labels are separated, where features are obtained by dropping the target columns ('status_group_functional', 'status_group_non functional') from the training data.
 **Test Data**: Test data is prepared by aligning the columns of the test dataset with the training dataset and filling missing values with 0.
@@ -37,3 +37,29 @@ Standard Deviation: The standard deviation of accuracy scores reveals the consis
 
 **Interpretation**
 The Decision Tree classifier achieved a mean cross-validation accuracy of approximately 0.774 with a standard deviation of 0.004. These results indicate the model's capability in predicting the condition of water pumps, considering both functional and non-functional states. 
+
+
+### Alternative Models
+### Random Forest Classifier
+
+**Random Forest Cross-validation Scores**:
+The Random Forest classifier was evaluated using cross-validation on the training data. The obtained cross-validation scores are as follows:
+
+**Cross-validation scores**: [0.8165, 0.8189, 0.8113, 0.8116, 0.8113]
+Mean CV accuracy: 0.8139
+Standard deviation of CV accuracy: 0.0032
+**Test Set Predictions**:
+The model made predictions for the test set, providing insights into its performance on unseen data:
+
+**Predicted labels for the test set**: [[ True False], [ True False], [ True False], ..., [ True False], [ True False], [False True]]
+These predictions indicate the model's classification for each data point in the test set, where True represents one class and False represents the other.
+
+**Implications**:
+The Random Forest classifier demonstrates a mean cross-validation accuracy of approximately 81.39%, indicating reasonable performance on unseen data.
+With a low standard deviation of cross-validation accuracy, the model exhibits consistent performance across different folds of the training data.
+Comparatively, the Random Forest classifier outperforms the Decision Trees model, achieving a higher mean cross-validation accuracy and lower standard deviation.
+Further improvements to the Random Forest classifier's performance are explored through hyperparameter tuning.
+
+
+
+
