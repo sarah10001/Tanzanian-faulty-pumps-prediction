@@ -1,4 +1,5 @@
-[notebook pdf]([https://github.com/sarah10001/Tanzanian-pump-functionality-prediction/blob/main/Pump%20functionality%20prediction.pdf)
+[Link to Pump Functionality Prediction PDF](https://github.com/sarah10001/Tanzanian-pump-functionality-prediction/blob/main/Pump%20functionality%20prediction.pdf)
+
 
 # Tanzanian Faulty Pumps Prediction
 ## Overview
