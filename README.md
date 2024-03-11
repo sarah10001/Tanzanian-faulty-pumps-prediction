@@ -54,8 +54,7 @@ Standard Deviation: The standard deviation of accuracy scores reveals the consis
 The Decision Tree classifier achieved a mean cross-validation accuracy of approximately 0.774 with a standard deviation of 0.004. These results indicate the model's capability in predicting the condition of water pumps, considering both functional and non-functional states. 
 
 ![Decision Trees Importance Feature Diagram](https://github.com/sarah10001/Tanzanian-pump-functionality-prediction/assets/151674519/158fbd2d-6453-4011-9c60-c02bda658499)
-![Decision Trees Importance Feature Diagram](![decision tree model viz](https://github.com/sarah10001/Tanzanian-pump-functionality-prediction/assets/151674519/16410a01-a91c-4f4b-bf2a-4f000461ac0a)
-)
+![Decision Trees model viz](![![Decision trees](https://github.com/sarah10001/Tanzanian-pump-functionality-prediction/assets/151674519/2c542f69-2520-4d3a-a820-9e0448ef957c)
 
 
 ### Alternative Models
@@ -100,7 +99,7 @@ The Decision Tree classifier achieved a mean cross-validation accuracy of approx
 - Understanding these factors can inform interventions to improve water access and infrastructure maintenance, particularly in regions with water access challenges.
 
 ![Random Forest Feature Importance Diagram](https://github.com/sarah10001/Tanzanian-pump-functionality-prediction/assets/151674519/dc8743f1-cbdf-48e5-90ab-4874934df557)
-![Random Forest model viz](![random forest model viz](https://github.com/sarah10001/Tanzanian-pump-functionality-prediction/assets/151674519/5205364c-9d90-4e43-81fe-f995fe76b143)
+![Random Forest model viz](![![Random forest](https://github.com/sarah10001/Tanzanian-pump-functionality-prediction/assets/151674519/ad426dca-012b-46e6-93c3-ca136bc25b42)
 
 
 ### Decision Tree Classifier Model Tuning
@@ -139,7 +138,7 @@ The Decision Tree classifier achieved a mean cross-validation accuracy of approx
 ### Conclusion:
 The tuned random forest classifier, with a max_depth of 30, achieved a mean cross-validation accuracy of approximately 81.12%. Despite a slightly lower accuracy than the default random forest model, it outperforms other models evaluated, including the decision tree classifier and the tuned decision tree model. The tuned random forest exhibits stable performance across different folds, making it the recommended model for practical applications due to its robustness and accuracy in predicting water pump functionality.
 
-![tuned random forest model viz](![tuned random forest viz](https://github.com/sarah10001/Tanzanian-pump-functionality-prediction/assets/151674519/056411a5-f5c2-42d9-ae3c-ea91e2fa0c51)
+![tuned random forest model viz](![![tuned random forest viz](https://github.com/sarah10001/Tanzanian-pump-functionality-prediction/assets/151674519/e04683c8-3128-4374-89e9-3c8371068d69)
 
 ### Recommendations for Improving Water Pump Functionality
 
