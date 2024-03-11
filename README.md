@@ -19,9 +19,9 @@ to classify water pumps into functional, non-functional, and functional needs re
 influencing water pump functionality and maintenance needs. By analyzing historical data on water pump failures and repairs, we can optimize maintenance schedules and resource allocation, prioritize interventions in regions with high repair needs, and evaluate the impact of funding sources on water pump functionality.
 
 ### Distributions before and after log transformation
-![Distribution before log transformation](https://github.com/sarah10001/Tanzanian-pump-functionality-prediction/blob/main/assets/151674519/0e2d23fd-fb43-47a6-95ce-58a89833ca50.png)
+![Distribution before log transformation](![distribution before log transformation](https://github.com/sarah10001/Tanzanian-pump-functionality-prediction/assets/151674519/6c74ea99-d176-490c-9090-7eaad5dc12db)
 
-![Distribution after log transformation](https://github.com/sarah10001/Tanzanian-pump-functionality-prediction/blob/main/assets/151674519/2e62f23c-e785-4ac5-86ae-24b9071bd64c.png)
+![Distribution after log transformation](![distribution after log transformation](https://github.com/sarah10001/Tanzanian-pump-functionality-prediction/assets/151674519/f4a3c454-99ec-47e9-b2ed-a7395027061c)
 
 
 ## Modeling
