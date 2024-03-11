@@ -138,7 +138,7 @@ The Decision Tree classifier achieved a mean cross-validation accuracy of approx
 ### Conclusion:
 The tuned random forest classifier, with a max_depth of 30, achieved a mean cross-validation accuracy of approximately 81.12%. Despite a slightly lower accuracy than the default random forest model, it outperforms other models evaluated, including the decision tree classifier and the tuned decision tree model. The tuned random forest exhibits stable performance across different folds, making it the recommended model for practical applications due to its robustness and accuracy in predicting water pump functionality.
 
-![tuned random forest model viz](![![tuned random forest viz](https://github.com/sarah10001/Tanzanian-pump-functionality-prediction/assets/151674519/e04683c8-3128-4374-89e9-3c8371068d69)
+![tuned random forest model viz](![!![Tuned random forest](https://github.com/sarah10001/Tanzanian-pump-functionality-prediction/assets/151674519/6f95ca2a-7839-41dc-9edb-ce571683cce1)
 
 ### Recommendations for Improving Water Pump Functionality
 
