@@ -1,4 +1,8 @@
-# Tanzanian Faulty Pumps Prediction
+[Link to Pump Functionality Prediction PDF](https://github.com/sarah10001/Tanzanian-pump-functionality-prediction/blob/main/Pump%20functionality%20prediction.pdf)
+
+[Link to presentation slides](https://www.canva.com/design/DAF_KE73Sr0/z9XV03rn00W1TH76s73dvw/edit)
+
+# Tanzanian water pump functionality prediction
 ## Overview
 Access to clean and potable water is crucial for the health and well-being of Tanzanian citizens. However, many water pumps across the country are faulty, leading to 
 water shortages and posing significant health risks to communities. To address this issue, we aim to develop a predictive model that can identify faulty water pumps 
@@ -13,8 +17,13 @@ the Ministry can efficiently allocate resources for maintenance and repair activ
 ## Data Understanding
 The dataset contains various features related to water pumps, including pump age, location, installer, and funding source. Our objective is to develop a predictive model 
 to classify water pumps into functional, non-functional, and functional needs repair categories. Additionally, we aim to conduct exploratory data analysis to identify factors
-influencing water pump functionality and maintenance needs. By analyzing historical data on water pump failures and repairs, we can optimize maintenance schedules and resource 
-allocation, prioritize interventions in regions with high repair needs, and evaluate the impact of funding sources on water pump functionality.
+influencing water pump functionality and maintenance needs. By analyzing historical data on water pump failures and repairs, we can optimize maintenance schedules and resource allocation, prioritize interventions in regions with high repair needs, and evaluate the impact of funding sources on water pump functionality.
+
+### Distributions before and after log transformation
+![Distribution before log transformation](![distribution before log transformation](https://github.com/sarah10001/Tanzanian-pump-functionality-prediction/assets/151674519/6c74ea99-d176-490c-9090-7eaad5dc12db)
+
+![Distribution after log transformation](![distribution after log transformation](https://github.com/sarah10001/Tanzanian-pump-functionality-prediction/assets/151674519/f4a3c454-99ec-47e9-b2ed-a7395027061c)
+
 
 ## Modeling
 The primary objective is to predict the functionality of water pumps based on historical data. Machine learning models excel at predictive tasks, allowing us to build accurate models that can generalize well to unseen data. This predictive capability is crucial for identifying non-functional pumps and ensuring timely maintenance or replacement.
