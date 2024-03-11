@@ -1,7 +1,7 @@
 [Link to Pump Functionality Prediction PDF](https://github.com/sarah10001/Tanzanian-pump-functionality-prediction/blob/main/Pump%20functionality%20prediction.pdf)
 
 
-# Tanzanian Faulty Pumps Prediction
+# Tanzanian water pump functionality prediction
 ## Overview
 Access to clean and potable water is crucial for the health and well-being of Tanzanian citizens. However, many water pumps across the country are faulty, leading to 
 water shortages and posing significant health risks to communities. To address this issue, we aim to develop a predictive model that can identify faulty water pumps 
